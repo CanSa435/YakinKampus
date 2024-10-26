@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.header{
+    padding: 10px;
+    height: 100px;
+    background-color: orange;
+}
+
+.logo img{
+   padding: 25px;
+}
+
+/*Menünü Oluşumu*/
+.menu {
+    display: flex;
+    text-align: center;
+    margin-right: 20px;
+    margin-top: -97px;
+    list-style-type: none;
+    float:right;
+    line-height: 100px;
+    
+}
+
+.menu a{
+    padding: 0 10px;
+    color: gray;
+    text-decoration: none;
+}
+
+.satin{
+    display: flex;
+}
+
+.satin img{
+    padding: 15px;
+    margin: 20px;
+}
+
+.yazi {
+    padding: 15px;
+    margin: 20px;
+}
+
+.yazi img{
+    margin-left: -15px;
+    margin-bottom: 20px;
+}
+
+.yazi button{
+    padding: 15px;
+    background-color: darkblue;
+}
+
+.yazi button a{
+    color: white;
+    text-decoration: none;
+}
+
+.bilgi{
+    padding: 15px;
+    margin: 20px;
+}
+
+.fayda{
+    padding: 15px;
+    margin: 20px;   
+}
+
+.fayda ul{
+    padding: 5px;
+    margin-left: 30px;
+}
+
+.fayda ul li{
+    padding: 5px;
+}
+
+.katki{
+    padding: 10px;
+    margin: 20px;
+}
+
+.katki ul{
+    padding: 5px;
+    margin-left: 30px;
+}
+
+.katki ul li{
+    padding: 5px;
+}
+
+.kitle{
+    padding: 15px;
+    margin: 20px;
+}
+
+.kitle ul{
+    padding: 5px;
+    margin-left: 30px;
+}
+
+.kitle ul li{
+    padding: 5px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    margin: 0;
+    height: 100px;
+    padding: 50px;
+}
+
+.icon{
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+}
+
+.icon:last-child{
+    margin-right: 0;
+    padding-right: 0;
+}
+

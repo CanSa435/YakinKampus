@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.header{
+    padding: 10px;
+    height: 100px;
+    background-color: orange;
+}
+
+.logo img{
+   padding: 25px;
+}
+
+/*Menünü Oluşumu*/
+.menu {
+    display: flex;
+    text-align: center;
+    margin-right: 20px;
+    margin-top: -97px;
+    list-style-type: none;
+    float:right;
+    line-height: 100px;
+    
+}
+
+.menu a{
+    padding: 0 10px;
+    color: gray;
+    text-decoration: none;
+}
+
+.tanim{
+    display: flex;
+}
+
+.tanim img{
+    padding: 15px;
+    margin: 20px;
+}
+
+.yazi{
+    padding: 15px;
+    margin: 20px;
+}
+
+.yazi p{
+    font-size: 25px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    margin: 0;
+    height: 100px;
+    padding: 50px;
+}
+
+.icon{
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+}
+
+.icon:last-child{
+    margin-right: 0;
+    padding-right: 0;
+}

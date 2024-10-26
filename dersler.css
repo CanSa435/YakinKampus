@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.header{
+    padding: 10px;
+    height: 100px;
+    background-color: orange;
+}
+
+.logo img{
+   padding: 25px;
+}
+
+/*Menünü Oluşumu*/
+.menu {
+    display: flex;
+    text-align: center;
+    margin-right: 20px;
+    margin-top: -97px;
+    list-style-type: none;
+    float:right;
+    line-height: 100px;
+    
+}
+
+.menu a{
+    padding: 0 10px;
+    color: gray;
+    text-decoration: none;
+}
+h1{
+    font: bold 15px;
+    text-align: center;
+}
+
+.container{
+    display: flex; /*Flexbox kullanarak yatayda hizala*/
+    
+}
+
+.ucretliders{
+    flex: 1;/*Her kutunun genişliği olsun*/
+    margin: 5px;
+    float: left;
+    width: 100px;
+    border: 1px solid black;
+}
+
+.ucretliders:hover{
+    box-shadow: rgb(100, 100, 100) 10px 10px 10px;
+}
+
+.ucretliders img{
+    width: 100%;
+    height: auto;
+}
+
+.desc{
+    padding: 15px;
+    text-align: center;
+}
+
+.container2{
+    display: flex; /*Flexbox kullanarak içerikleri yatayda hizala*/
+}
+
+.ucretsizders{
+    flex: 1;
+    margin: 5px;
+    float: left;
+    width: 220px;
+    border: 1px solid black;
+}
+.ucretsizders:hover{
+    box-shadow: rgb(100, 100, 100) 10px 10px 10px;
+}
+
+.ucretsizders img{
+    width: 100%;
+    height: auto;
+}
+
+.desc2{
+    padding: 15px;
+    text-align: center;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    margin: 0;
+    height: 100px;
+    padding: 50px;
+}
+
+.icon{
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+}
+
+.icon:last-child{
+    margin-right: 0;
+    padding-right: 0;
+}
